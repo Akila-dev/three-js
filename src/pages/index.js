@@ -4,3 +4,4 @@ export { default as ModelsInASphere } from "./ModelsInASphere";
 export { default as FloatingOpenNCloseLaptop } from "./FloatingOpenNCloseLaptop";
 export { default as TokyoScroll } from "./TokyoScroll";
 export { default as ScrollTriggerPage } from "./ScrollTriggerPage";
+export { default as Tailwind } from "./Tailwind";

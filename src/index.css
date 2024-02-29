@@ -103,6 +103,26 @@
     overscroll-behavior: none;
     background: #efefef;
     font-family: 'Inter var', sans-serif;
-    cursor: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48Y2lyY2xlIGN4PSIxNiIgY3k9IjE2IiByPSIxMCIgZmlsbD0iYmxhY2siLz48L3N2Zz4='),
-        auto;
+    cursor: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48Y2lyY2xlIGN4PSIxNiIgY3k9IjE2IiByPSIxMCIgZmlsbD0iYmxhY2siLz48L3N2Zz4='), auto;
+}
+
+.t-body{
+  @apply m-0 bg-black mt-[50vh] mb-[100vh]
+}
+
+.t-container{
+  @apply h-[300ch] relative
+}
+.t-sticky{
+  @apply sticky top-0 h-[100vh] bg-red-600
+}
+
+.t-el{
+  @apply w-full h-full absolute top-0 flex items-center justify-center
+}
+.t-img-container{
+  @apply relative w-[25vw] h-[25vh]
+}
+.t-img{
+  @apply object-cover w-full h-full
 }

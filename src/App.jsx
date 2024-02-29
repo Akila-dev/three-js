@@ -7,6 +7,7 @@ import {
 	FloatingOpenNCloseLaptop,
 	TokyoScroll,
 	ScrollTriggerPage,
+	Tailwind,
 } from "./pages";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
 			<Route exact path="/3" element={<FloatingOpenNCloseLaptop />} />
 			<Route exact path="/4" element={<TokyoScroll />} />
 			<Route exact path="/5" element={<ScrollTriggerPage />} />
+			<Route exact path="/tailwind" element={<Tailwind />} />
 		</Routes>
 	);
 }
